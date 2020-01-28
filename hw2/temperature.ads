@@ -1,7 +1,7 @@
 package Temperature is 
-   type Kelvin_Type is new Float range 0.0 .. Float'Last;
-   type Celcius_Type is new Float;
-   type Fahrenheit_Type is new Float;
+   type Kelvin_Type is new Long_Float range 0.0 .. Long_Float'Last;
+   type Celcius_Type is new Long_Float;
+   type Fahrenheit_Type is new Long_Float;
 
    type Temperature_Type is private;
 
